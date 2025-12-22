@@ -1,0 +1,9 @@
+id,airline,flightNumber,origin,destination,departureTime,arrivalTime,price,availableSeats,aircraftType
+f1,Delta Airlines,DL101,New York,London,2025-01-15T10:00:00,2025-01-15T22:00:00,850.00,150,Boeing 777
+f2,United Airlines,UA202,Los Angeles,Tokyo,2025-01-16T14:30:00,2025-01-17T18:00:00,1200.00,200,Boeing 787
+f3,Emirates,EK303,Dubai,Paris,2025-01-17T08:00:00,2025-01-17T13:30:00,950.00,180,Airbus A380
+f4,American Airlines,AA404,Chicago,Miami,2025-01-18T09:15:00,2025-01-18T13:45:00,320.00,120,Boeing 737
+f5,Lufthansa,LH505,Frankfurt,Singapore,2025-01-19T11:00:00,2025-01-20T06:30:00,1450.00,250,Airbus A350
+f6,British Airways,BA606,London,New York,2025-01-20T15:00:00,2025-01-20T18:30:00,780.00,180,Boeing 747
+f7,Air France,AF707,Paris,Dubai,2025-01-21T12:00:00,2025-01-21T20:00:00,890.00,160,Airbus A330
+f8,Qatar Airways,QR808,Tokyo,Los Angeles,2025-01-22T09:00:00,2025-01-22T14:00:00,1150.00,220,Boeing 777

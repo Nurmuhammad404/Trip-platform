@@ -1,0 +1,21 @@
+# id,name,destination,duration,price,description,maxGroupSize,guide,schedule
+1,NYC Explorer,New York,3,299.00,Explore iconic NYC landmarks,15,Sarah Johnson,Daily 9AM-5PM
+2,Miami Beach Adventure,Miami,2,199.00,Beach and water sports tour,12,Mike Davis,Weekends 10AM-4PM
+3,California Coastline,California,7,899.00,Drive along scenic Pacific Coast,20,Emma Wilson,Mon/Thu/Sat 8AM-6PM
+4,Grand Canyon Trek,Arizona,5,599.00,Hiking and camping experience,10,Tom Brown,Daily 6AM-8PM
+5,Chicago Architecture Tour,Chicago,1,89.00,Explore Chicago's famous buildings,25,Robert Garcia,Daily 10AM-2PM
+6,Seattle Food & Pike Place,Seattle,1,75.00,Culinary tour of Seattle,15,Lisa Chen,Tue/Thu/Sat 11AM-3PM
+7,Las Vegas Night Life,Las Vegas,1,129.00,Experience Vegas at night,20,David Martinez,Daily 8PM-2AM
+8,Boston Historical Walk,Boston,1,65.00,Walk the Freedom Trail,18,Jennifer Adams,Daily 9AM-1PM
+9,San Francisco Bay Cruise,San Francisco,3,179.00,Bay cruise with Alcatraz visit,30,Michael Lee,Daily 10AM-4PM
+10,Yellowstone Wildlife Safari,Wyoming,5,749.00,Wildlife viewing and geysers,12,Amanda Wright,Mon/Wed/Fri 6AM-6PM
+11,New Orleans Jazz & Food,New Orleans,2,199.00,Jazz clubs and Cajun cuisine,16,Marcus Johnson,Wed/Sat 5PM-11PM
+12,Orlando Theme Parks,Orlando,3,449.00,Multi-park adventure,25,Jessica Taylor,Daily 9AM-10PM
+13,Hawaiian Island Hopping,Hawaii,10,1899.00,Explore multiple Hawaiian islands,15,Kai Nakamura,Sundays 8AM
+14,Alaska Glacier Cruise,Alaska,7,1299.00,Cruise through glacier bay,40,Captain James,June-Aug Daily
+15,Rocky Mountain Adventure,Colorado,4,549.00,Hiking and mountain climbing,10,Steve Anderson,Daily 7AM-5PM
+16,Wine Country Tour,Napa Valley,2,299.00,Wine tasting at top vineyards,12,Sophie Martin,Fri/Sat/Sun 10AM-5PM
+17,Texas BBQ Trail,Texas,3,189.00,Best BBQ spots across Texas,20,Billy Thompson,Thu/Sat 11AM-7PM
+18,Smoky Mountains Nature,Tennessee,4,399.00,Hiking and wildlife in the Smokies,14,Rachel Green,Daily 8AM-4PM
+19,Monument Valley Tour,Arizona,2,249.00,Explore iconic desert landscapes,18,John Begay,Daily 6AM-6PM
+20,Washington DC Monuments,Washington DC,1,79.00,Visit all major national monuments,30,Patricia Williams,Daily 9AM-5PM

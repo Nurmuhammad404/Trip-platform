@@ -1,0 +1,41 @@
+# id,name,city,country,description,category,rating,entryFee
+1,Statue of Liberty,New York,USA,Iconic monument and museum,Monument,4.8,25.00
+2,Empire State Building,New York,USA,Historic skyscraper with observation deck,Building,4.6,42.00
+3,Golden Gate Bridge,San Francisco,USA,Famous suspension bridge,Bridge,4.9,0.00
+4,Grand Canyon,Arizona,USA,Massive natural canyon,Nature,5.0,35.00
+5,Central Park,New York,USA,Large urban public park,Park,4.7,0.00
+6,Hollywood Sign,Los Angeles,USA,Iconic landmark,Monument,4.3,0.00
+7,Eiffel Tower,Paris,France,Iconic iron lattice tower,Monument,4.9,28.00
+8,Colosseum,Rome,Italy,Ancient Roman amphitheater,Historic Site,4.8,18.00
+9,Big Ben,London,UK,Famous clock tower,Monument,4.7,0.00
+10,Sagrada Familia,Barcelona,Spain,Unfinished Gaudi basilica,Religious Site,4.9,26.00
+11,Taj Mahal,Agra,India,White marble mausoleum,Monument,5.0,14.00
+12,Great Wall of China,Beijing,China,Ancient defensive wall,Historic Site,4.8,8.00
+13,Christ the Redeemer,Rio de Janeiro,Brazil,Art Deco statue of Jesus,Monument,4.7,12.00
+14,Machu Picchu,Cusco,Peru,Incan citadel in the Andes,Historic Site,5.0,45.00
+15,Sydney Opera House,Sydney,Australia,Modern architectural masterpiece,Building,4.8,0.00
+16,Burj Khalifa,Dubai,UAE,World's tallest building,Building,4.9,40.00
+17,Santorini,Santorini,Greece,Beautiful Greek island,Nature,4.9,0.00
+18,Louvre Museum,Paris,France,World's largest art museum,Museum,4.7,17.00
+19,Times Square,New York,USA,Major commercial intersection,Landmark,4.5,0.00
+20,Niagara Falls,Ontario,Canada,Massive waterfalls,Nature,4.8,0.00
+21,Yellowstone National Park,Wyoming,USA,First national park in the world,Nature,4.9,35.00
+22,Mount Rushmore,South Dakota,USA,Mountain sculpture of presidents,Monument,4.6,0.00
+23,Space Needle,Seattle,USA,Iconic observation tower,Building,4.5,35.00
+24,Alcatraz Island,San Francisco,USA,Historic federal prison,Historic Site,4.7,41.00
+25,Lincoln Memorial,Washington DC,USA,Presidential memorial,Monument,4.8,0.00
+26,Freedom Trail,Boston,USA,2.5-mile historic walking trail,Historic Site,4.6,0.00
+27,Navy Pier,Chicago,USA,Lakefront entertainment pier,Landmark,4.4,0.00
+28,The Bean,Chicago,USA,Reflective sculpture,Art,4.6,0.00
+29,Pike Place Market,Seattle,USA,Historic public market,Market,4.6,0.00
+30,French Quarter,New Orleans,USA,Historic neighborhood,Historic Site,4.7,0.00
+31,Yosemite National Park,California,USA,Granite cliffs and waterfalls,Nature,4.9,35.00
+32,Kennedy Space Center,Florida,USA,NASA's launch headquarters,Museum,4.7,75.00
+33,Art Institute of Chicago,Chicago,USA,Renowned art museum,Museum,4.8,25.00
+34,Brooklyn Bridge,New York,USA,Historic suspension bridge,Bridge,4.7,0.00
+35,Venice Beach,Los Angeles,USA,Famous beach and boardwalk,Beach,4.5,0.00
+36,The Alamo,San Antonio,USA,Historic mission and battle site,Historic Site,4.6,0.00
+37,Smithsonian Museums,Washington DC,USA,Free museum complex,Museum,4.9,0.00
+38,Rockefeller Center,New York,USA,Commercial complex and ice rink,Landmark,4.6,40.00
+39,Hoover Dam,Nevada,USA,Massive concrete arch-gravity dam,Engineering,4.7,10.00
+40,Universal Studios,Los Angeles,USA,Film studio and theme park,Theme Park,4.6,109.00

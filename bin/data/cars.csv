@@ -1,0 +1,26 @@
+# id,brand,model,type,pricePerDay,available,location,seats,transmission
+1,Toyota,Camry,Sedan,45.00,true,New York,5,Automatic
+2,Honda,CR-V,SUV,65.00,true,Los Angeles,7,Automatic
+3,Ford,Mustang,Sports,89.00,true,Miami,4,Manual
+4,Tesla,Model 3,Electric,95.00,false,Chicago,5,Automatic
+5,Jeep,Wrangler,SUV,75.00,true,Denver,5,Automatic
+6,BMW,3 Series,Luxury,110.00,true,San Francisco,5,Automatic
+7,Mercedes-Benz,C-Class,Luxury,125.00,true,Boston,5,Automatic
+8,Chevrolet,Malibu,Sedan,42.00,true,Phoenix,5,Automatic
+9,Nissan,Altima,Sedan,40.00,true,Seattle,5,Automatic
+10,Hyundai,Tucson,SUV,60.00,true,Atlanta,5,Automatic
+11,Mazda,CX-5,SUV,68.00,false,Las Vegas,5,Automatic
+12,Audi,A4,Luxury,115.00,true,Washington DC,5,Automatic
+13,Volkswagen,Passat,Sedan,48.00,true,Philadelphia,5,Automatic
+14,Kia,Sorento,SUV,62.00,true,San Diego,7,Automatic
+15,Toyota,Prius,Hybrid,52.00,true,Portland,5,Automatic
+16,Honda,Accord,Sedan,46.00,true,Houston,5,Automatic
+17,Ford,Explorer,SUV,78.00,true,Dallas,7,Automatic
+18,Chevrolet,Suburban,SUV,95.00,true,Orlando,8,Automatic
+19,Tesla,Model Y,Electric,105.00,false,Austin,5,Automatic
+20,Dodge,Charger,Sports,85.00,true,Tampa,5,Automatic
+21,Subaru,Outback,SUV,70.00,true,Minneapolis,5,Automatic
+22,Lexus,ES,Luxury,120.00,true,Charlotte,5,Automatic
+23,Cadillac,Escalade,Luxury SUV,150.00,false,Nashville,7,Automatic
+24,Mini,Cooper,Compact,55.00,true,San Francisco,4,Manual
+25,Chrysler,Pacifica,Minivan,72.00,true,Detroit,7,Automatic
