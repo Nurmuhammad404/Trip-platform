@@ -1,0 +1,31 @@
+# id,name,city,address,starRating,pricePerNight,availableRooms,amenities
+1,Grand Plaza Hotel,New York,123 5th Avenue,4,250.0,14,WiFi|Pool|Gym|Restaurant
+2,Beach Resort,Miami,456 Ocean Drive,5,450.0,8,WiFi|Pool|Beach|Spa
+3,City Center Inn,Chicago,789 Main Street,3,120.0,25,WiFi|Parking
+4,Mountain View Lodge,Denver,321 Summit Road,4,180.0,12,WiFi|Gym|Mountain View
+5,Sunset Boulevard Hotel,Los Angeles,100 Sunset Blvd,4,280.0,18,WiFi|Pool|Valet|Restaurant
+6,The Ritz Carlton,San Francisco,600 Stockton Street,5,520.0,6,WiFi|Pool|Spa|Restaurant|Concierge
+7,Marriott Downtown,Boston,110 Huntington Ave,4,295.0,20,WiFi|Gym|Restaurant|Bar
+8,Budget Inn,Phoenix,250 Central Ave,2,75.0,30,WiFi|Parking|Breakfast
+9,Lakefront Resort,Seattle,500 Lake Shore Dr,4,310.0,14,WiFi|Lake View|Restaurant|Gym
+10,Airport Express Hotel,Atlanta,1500 Airport Rd,3,95.0,35,WiFi|Shuttle|Breakfast
+11,Historic Downtown Hotel,Philadelphia,200 Market Street,3,145.0,22,WiFi|Historic Building|Restaurant
+12,Vegas Luxury Suites,Las Vegas,3500 Las Vegas Blvd,5,380.0,10,WiFi|Casino|Pool|Nightclub|Spa
+13,Business Center Hotel,Houston,800 Texas Ave,3,135.0,28,WiFi|Business Center|Gym
+14,Oceanfront Paradise,San Diego,900 Coast Blvd,4,340.0,11,WiFi|Beach|Pool|Ocean View|Restaurant
+15,Garden Inn & Suites,Portland,450 Garden Way,3,165.0,19,WiFi|Garden|Breakfast|Parking
+16,Presidential Suites,Washington DC,1600 Pennsylvania Ave,5,550.0,5,WiFi|Pool|Spa|Restaurant|Concierge|Historic
+17,Ski Lodge Resort,Aspen,700 Mountain Road,4,420.0,9,WiFi|Ski Access|Restaurant|Spa|Fireplace
+18,Riverside Hotel,Austin,350 Colorado St,3,155.0,24,WiFi|River View|Restaurant|Bar
+19,Four Seasons,New York,57 East 57th Street,5,650.0,4,WiFi|Pool|Spa|Restaurant|Concierge|Luxury
+20,Hilton Garden Inn,Orlando,1200 Disney Way,3,145.0,32,WiFi|Pool|Breakfast|Parking
+21,Hyatt Regency,Miami Beach,1500 Collins Ave,4,365.0,16,WiFi|Beach|Pool|Restaurant|Spa
+22,Boutique Hotel Downtown,Nashville,400 Broadway,3,175.0,15,WiFi|Live Music|Bar|Restaurant
+23,Continental Hotel,Cleveland,900 Euclid Ave,3,110.0,26,WiFi|Restaurant|Parking
+24,Luxury Bay Resort,Tampa,2000 Bay Drive,5,425.0,7,WiFi|Bay View|Pool|Spa|Restaurant
+25,Comfort Suites,Dallas,1100 Commerce St,3,125.0,29,WiFi|Breakfast|Gym|Parking
+26,Beachside Bungalows,Honolulu,2500 Kalakaua Ave,4,395.0,12,WiFi|Beach|Pool|Ocean View|Restaurant
+27,Metropolitan Hotel,Minneapolis,700 Hennepin Ave,4,215.0,17,WiFi|Gym|Restaurant|Bar
+28,Historic Inn,Charleston,85 Church Street,4,285.0,10,WiFi|Historic|Garden|Restaurant
+29,Skyline Tower Hotel,Chicago,875 Michigan Ave,5,475.0,8,WiFi|Skyline View|Pool|Restaurant|Spa
+30,Budget Lodge,Detroit,1500 Woodward Ave,2,68.0,40,WiFi|Parking|Breakfast

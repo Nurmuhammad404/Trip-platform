@@ -1,0 +1,9 @@
+target/
+*.class
+.idea/
+*.iml
+*.log
+.DS_Store
+bin/
+trip-platform.db
+TestParse.java

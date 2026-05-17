@@ -1,0 +1,22 @@
+package com.epam.trip.protocol;
+
+public enum Command {
+    // Auth (all roles)
+    LOGIN, LOGOUT, REGISTER,
+
+    // Visitor — read-only browsing (no token required)
+    LIST_FLIGHTS, LIST_HOTELS, LIST_CARS, LIST_PLACES, LIST_TOURS, LIST_TAXIS,
+    SEARCH_FLIGHTS, SEARCH_HOTELS, SEARCH_CARS, SEARCH_PLACES, SEARCH_TAXIS,
+
+    // User — requires USER or ADMIN role
+    BOOK_FLIGHT, BOOK_HOTEL, RENT_CAR, BOOK_TAXI,
+    ADD_FLIGHT, ADD_HOTEL, ADD_CAR, ADD_PLACE, ADD_TOUR, ADD_TAXI,
+    DELETE_FLIGHT, DELETE_HOTEL, DELETE_CAR, DELETE_PLACE, DELETE_TOUR, DELETE_TAXI,
+    VIEW_BOOKINGS, CANCEL_BOOKING,
+
+    // Admin — requires ADMIN role
+    LIST_USERS, ADD_USER, DELETE_USER, UPDATE_USER_ROLE,
+
+    // Meta
+    PING, HELP
+}
