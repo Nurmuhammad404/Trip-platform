@@ -18,5 +18,8 @@ public enum Command {
     LIST_USERS, ADD_USER, DELETE_USER, UPDATE_USER_ROLE,
 
     // Meta
-    PING, HELP
+    PING, HELP,
+
+    // Admin — DB lifecycle simulation
+    SHUTDOWN_DB, RESTART_DB
 }

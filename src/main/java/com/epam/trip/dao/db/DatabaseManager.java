@@ -14,13 +14,17 @@ public class DatabaseManager {
     private static final Logger log = LoggerFactory.getLogger(DatabaseManager.class);
     private static DatabaseManager instance;
 
-    private final ConnectionPool pool;
+    private ConnectionPool pool;
+    private String dbUrl;
+    private int poolSize;
+    private volatile boolean available = true;
 
     private DatabaseManager(String dbPath, int poolSize) {
-        String url = "jdbc:sqlite:" + dbPath;
-        this.pool = new ConnectionPool(url, poolSize);
+        this.dbUrl = "jdbc:sqlite:" + dbPath;
+        this.poolSize = poolSize;
+        this.pool = new ConnectionPool(dbUrl, poolSize);
         initSchema();
-        log.info("DatabaseManager initialised — {}", url);
+        log.info("DatabaseManager initialised — {}", dbUrl);
     }
 
     public static synchronized DatabaseManager getInstance(String dbPath, int poolSize) {
@@ -36,6 +40,7 @@ public class DatabaseManager {
     }
 
     public Connection getConnection() throws SQLException {
+        if (!available) throw new SQLException("Database is offline");
         return pool.acquire();
     }
 
@@ -46,6 +51,23 @@ public class DatabaseManager {
     public void shutdown() {
         pool.closeAll();
         log.info("DatabaseManager shut down");
+    }
+
+    public synchronized void simulateShutdown() {
+        available = false;
+        pool.closeAll();
+        log.warn("Database taken OFFLINE (simulated shutdown)");
+    }
+
+    public synchronized void reconnect() {
+        this.pool = new ConnectionPool(dbUrl, poolSize);
+        available = true;
+        initSchema();
+        log.info("Database back ONLINE (reconnected)");
+    }
+
+    public boolean isAvailable() {
+        return available;
     }
 
     private void initSchema() {

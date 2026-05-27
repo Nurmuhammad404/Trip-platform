@@ -139,6 +139,9 @@ public class ClientApp {
         System.out.println("  [19] List Users     [20] Delete User");
         System.out.println("  [21] Change User Role");
         System.out.println("──────────────────────────────────────────────");
+        System.out.println("  DATABASE");
+        System.out.println("  [23] Shutdown DB    [24] Restart DB");
+        System.out.println("──────────────────────────────────────────────");
         System.out.println("  [22] Logout");
         System.out.println("  [0] Exit");
     }
@@ -261,6 +264,8 @@ public class ClientApp {
                 case "20" -> "DELETE_USER";
                 case "21" -> "UPDATE_USER_ROLE";
                 case "22" -> "LOGOUT";
+                case "23" -> "SHUTDOWN_DB";
+                case "24" -> "RESTART_DB";
                 default   -> null;
             };
             default -> null;

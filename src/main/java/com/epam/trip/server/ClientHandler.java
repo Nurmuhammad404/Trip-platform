@@ -151,6 +151,16 @@ public class ClientHandler implements Runnable {
                 // ── Meta ──────────────────────────────────────
                 case PING -> Response.ok("PONG");
                 case HELP -> Response.ok(helpText());
+
+                // ── Admin — DB lifecycle ───────────────────────
+                case SHUTDOWN_DB -> requireRole(Role.ADMIN, () -> {
+                    DatabaseManager.getInstance().simulateShutdown();
+                    return Response.ok("Database taken OFFLINE. DB commands will fail until RESTART_DB.");
+                });
+                case RESTART_DB -> requireRole(Role.ADMIN, () -> {
+                    DatabaseManager.getInstance().reconnect();
+                    return Response.ok("Database back ONLINE.");
+                });
             };
         } catch (ValidationException e) {
             return Response.error("Validation: " + e.getMessage());
